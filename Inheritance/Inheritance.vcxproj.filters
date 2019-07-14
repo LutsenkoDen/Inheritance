@@ -19,4 +19,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Humen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graduate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
