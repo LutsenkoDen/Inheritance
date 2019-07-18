@@ -16,6 +16,7 @@ public:
 	Humen(string name, unsigned int age);
 	~Humen();
 	// Methods
-	void info();
+	
+virtual void info();
 };
 ostream& operator<<(ostream& os, const Humen& obj);

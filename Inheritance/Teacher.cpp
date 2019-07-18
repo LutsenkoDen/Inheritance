@@ -30,7 +30,10 @@ Teacher::Teacher(const string& name, unsigned int age,
 	this->speciality = speciality;
 	this->xp = xp;
 	this->evil = evil;
+#ifdef DEBUG
 	cout << "TConstructor:\t" << this << endl;
+#endif // DEBUG
+
 }
 Teacher::~Teacher()
 {

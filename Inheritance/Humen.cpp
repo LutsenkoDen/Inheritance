@@ -18,7 +18,10 @@ void Humen::set_age(unsigned int age)
 }
 Humen::Humen(string name, unsigned int age) : name(name), age(age)
 {
+#ifdef DEBUG
 	cout << "HConstructor:\t" << this << endl;
+#endif // DEBUG
+
 }
 Humen::~Humen()
 {

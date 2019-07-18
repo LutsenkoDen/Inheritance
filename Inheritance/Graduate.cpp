@@ -15,7 +15,10 @@ Graduate::Graduate
 ) :Student(name, age, speciality, year, rating)
 {
 	this->diploma_theme = diploma_theme;
+#ifdef DEBUG
 	cout << "GConstructor:\t" << this << endl;
+#endif // DEBUG
+
 }
 Graduate::~Graduate()
 {
