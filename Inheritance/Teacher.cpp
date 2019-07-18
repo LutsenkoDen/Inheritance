@@ -48,5 +48,6 @@ void Teacher::info()
 
 ostream& operator<<(ostream& os, const Teacher& obj)
 {
+	os << (Humen)obj;
 	return os << "Специальность: " << obj.get_speciality() << ", опыт преподавания: " << obj.get_xp() << " лет" << ", уровень злости: " << obj.get_evil() << " %" << endl;
 }

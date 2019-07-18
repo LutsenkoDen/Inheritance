@@ -32,7 +32,10 @@ Student::Student
 	this->speciality = speciality;
 	this->year = year;
 	this->rating = rating;
+#ifdef DEBUG
 	cout << "SConstructor:\t" << this << endl;
+#endif // DEBUG
+
 }
 Student:: ~Student()
 {
